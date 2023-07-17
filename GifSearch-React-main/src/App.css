@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+}
+
+.header {
+  background-color: #1070d9;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+img {
+  width: -webkit-fill-available
+}
+
+.image-gif {
+  width: 150px;
+  height: 150px;
+}
+
+.image-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.gif-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px 0px;
+}
+
+.pagination {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 14px 0;
+  position: sticky;
+  /* bottom: 30 */
+}
